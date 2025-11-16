@@ -4,7 +4,8 @@ import "fmt"
 
 /*
 *136. 只出现一次的数字
- */
+https://leetcode.cn/problems/single-number/
+*/
 func singleNumber(nums []int) int {
 	var single = 0
 	for _, value := range nums {
