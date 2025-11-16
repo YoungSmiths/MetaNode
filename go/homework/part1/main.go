@@ -12,4 +12,6 @@ func main() {
 	fmt.Println(isPalindrome(121))
 
 	fmt.Println(isValid("[[]{}]"))
+
+	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
 }
