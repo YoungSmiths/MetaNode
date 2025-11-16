@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
 *136. 只出现一次的数字
 https://leetcode.cn/problems/single-number/
@@ -33,11 +31,4 @@ func singleNumber3(nums []int) int {
 		index++
 	}
 	return single
-}
-
-func main() {
-	nums := []int{4, 1, 2, 1, 2}
-	fmt.Println(singleNumber(nums))
-	fmt.Println(singleNumber2(nums))
-	fmt.Println(singleNumber3(nums))
 }
