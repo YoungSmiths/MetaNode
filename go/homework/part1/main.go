@@ -10,4 +10,6 @@ func main() {
 	fmt.Println(singleNumber3(nums))
 
 	fmt.Println(isPalindrome(121))
+
+	fmt.Println(isValid("[[]{}]"))
 }
