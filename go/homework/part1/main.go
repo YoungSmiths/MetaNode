@@ -20,4 +20,6 @@ func main() {
 	fmt.Println(removeDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
 
 	fmt.Println(merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
+
+	fmt.Println(twoSum([]int{21, 7, 2, 15}, 9))
 }
