@@ -18,4 +18,6 @@ func main() {
 	fmt.Println(plusOne([]int{1, 2, 3}))
 
 	fmt.Println(removeDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
+
+	fmt.Println(merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
 }
