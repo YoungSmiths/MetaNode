@@ -16,4 +16,6 @@ func main() {
 	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
 
 	fmt.Println(plusOne([]int{1, 2, 3}))
+
+	fmt.Println(removeDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
 }
