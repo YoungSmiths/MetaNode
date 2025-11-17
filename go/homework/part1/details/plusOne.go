@@ -1,10 +1,10 @@
-package main
+package details
 
 /*
 *66. 加一
 https://leetcode.cn/problems/plus-one/
 */
-func plusOne(digits []int) []int {
+func PlusOne(digits []int) []int {
 	length := len(digits)
 	for i := length - 1; i > 0; i -= 1 {
 		if digits[i] != 9 {

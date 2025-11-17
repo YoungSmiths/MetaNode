@@ -1,10 +1,10 @@
-package main
+package details
 
 /*
 *20. 有效的括号
 https://leetcode.cn/problems/valid-parentheses/
 */
-func isValid(s string) bool {
+func IsValid(s string) bool {
 	length := len(s)
 	if length%2 == 1 {
 		return false

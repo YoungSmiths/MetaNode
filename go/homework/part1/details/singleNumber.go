@@ -1,10 +1,10 @@
-package main
+package details
 
 /*
 *136. 只出现一次的数字
 https://leetcode.cn/problems/single-number/
 */
-func singleNumber(nums []int) int {
+func SingleNumber(nums []int) int {
 	var single = 0
 	for _, value := range nums {
 		single ^= value
@@ -12,7 +12,7 @@ func singleNumber(nums []int) int {
 	return single
 }
 
-func singleNumber2(nums []int) int {
+func SingleNumber2(nums []int) int {
 	var single = 0
 	for i := 0; i < len(nums); i++ {
 		single ^= nums[i]
@@ -20,7 +20,7 @@ func singleNumber2(nums []int) int {
 	return single
 }
 
-func singleNumber3(nums []int) int {
+func SingleNumber3(nums []int) int {
 	var single = 0
 	var index = 0
 	for {

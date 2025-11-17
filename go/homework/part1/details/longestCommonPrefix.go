@@ -1,10 +1,10 @@
-package main
+package details
 
 /*
 *14. 最长公共前缀
 https://leetcode.cn/problems/longest-common-prefix/
 */
-func longestCommonPrefix(strs []string) string {
+func LongestCommonPrefix(strs []string) string {
 	length := len(strs)
 	if length == 0 {
 		return ""
@@ -15,12 +15,12 @@ func longestCommonPrefix(strs []string) string {
 	prefix := strs[0]
 	count := len(strs)
 	for i := 1; i < count; i++ {
-		prefix = longestCommonPrefix1(prefix, strs[i])
+		prefix = LongestCommonPrefix1(prefix, strs[i])
 	}
 	return prefix
 }
 
-func longestCommonPrefix1(prefix string, str string) string {
+func LongestCommonPrefix1(prefix string, str string) string {
 	prefixLen := len(prefix)
 	strLen := len(str)
 	// prefixLen 和 strLen 中较小的那个

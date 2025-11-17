@@ -1,4 +1,4 @@
-package main
+package details
 
 import (
 	"sort"
@@ -9,7 +9,7 @@ import (
 56. 合并区间
 https://leetcode.cn/problems/merge-intervals/description/
 */
-func merge(in [][]int) [][]int {
+func Merge(in [][]int) [][]int {
 	length := len(in)
 	if length == 0 {
 		return [][]int{}

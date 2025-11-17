@@ -1,4 +1,4 @@
-package main
+package details
 
 import (
 	"strconv"
@@ -8,7 +8,7 @@ import (
 *9. 回文数
 https://leetcode.cn/problems/palindrome-number/
 */
-func isPalindrome(x int) bool {
+func IsPalindrome(x int) bool {
 	str := strconv.Itoa(x)
 	length := len(str)
 	for i := 0; i <= length/2; i++ {
