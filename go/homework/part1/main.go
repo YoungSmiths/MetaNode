@@ -14,4 +14,6 @@ func main() {
 	fmt.Println(isValid("[[]{}]"))
 
 	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
+
+	fmt.Println(plusOne([]int{1, 2, 3}))
 }
